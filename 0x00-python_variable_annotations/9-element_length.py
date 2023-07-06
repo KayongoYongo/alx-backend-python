@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""antonate te function"""
+"""Antonate the function"""
 
 
-from typing import List, Tuple
+from typing import Iterable, Sequence, List, Tuple, Dict
 
 
-def element_length(lst: List[str]) -> List[Tuple[str, int]]:
-    """Antonate the function"""
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    """Antonate the fuction"""
     return [(i, len(i)) for i in lst]
