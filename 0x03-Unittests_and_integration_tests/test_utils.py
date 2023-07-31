@@ -1,6 +1,10 @@
+#!/usr/bin/env python3
+"""Unit test for utils"""
+
 import unittest
 from parameterized import parameterized
 from utils import access_nested_map
+
 
 class TestAccessNestedMap(unittest.TestCase):
 
